@@ -1,0 +1,189 @@
+[
+    {
+        "question": "You are utilizing Azure OpenAI Service to develop generative AI solutions. What is a primary concern that needs to be addressed to minimize the risk of harmful content generation?",
+        "options": [
+            "Data Encryption",
+            "Content Moderation",
+            "Network Security",
+            "Data Sharding"
+        ],
+        "category": "Implement generative AI solutions (10–15%)"
+    },
+    {
+        "question": "In leveraging generative AI for creating customer-relevant content on a website, which Azure AI service would be most appropriate to use?",
+        "options": [
+            "Azure Machine Learning",
+            "Azure OpenAI Service",
+            "Azure Cognitive Search",
+            "Azure Bot Service"
+        ],
+        "category": "Implement generative AI solutions (10–15%)"
+    },
+    {
+        "question": "When operationalizing generative AI applications with Azure Machine Learning, what is a crucial part of the AI lifecycle that needs monitoring?",
+        "options": [
+            "Model Training",
+            "Model Deployment",
+            "Model Monitoring in Production",
+            "Data Collection and Preprocessing"
+        ],
+        "category": "Implement generative AI solutions (10–15%)"
+    },
+    
+    {
+        "question": "You need to build an app that will summarize text documents into key phrases. Which Azure AI Language feature should you recommend?",
+        "options": [
+            "Language Summarization",
+            "key phrase extraction",
+            "Named Entity Recognition (NER)",
+            "Personally Identifiable Information (PII) detection"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+    {
+        "question": "You have an app that sends audio recordings from a call center to the speech-to-text feature of Azure AI Services. During testing, you notice that the Word Error Rate (WER) is high and there are a lot of substitution errors. You need to improve the model and reduce the WER. What should you add to the training data?",
+        "options": [
+            "custom product and people names",
+            "overlapping speakers",
+            "people talking in the background"
+        ],
+        "category": "Implement computer vision solutions (15–20%)"
+    },
+    {
+        "question": "You are building an app that will recognize the intent and entities of user utterances in real-time. You need to implement the pattern matching intent recognition mechanism. The solution must only detect entities that you define in a catalog of phrases. Which entity type should you use?",
+        "options": [
+            "the List entity using Fuzzy mode",
+            "the List entity using Strict mode",
+            "the prebuilt entity using Fuzzy mode",
+            "the prebuilt entity using Strict mode",
+            "the regex entity using Fuzzy mode",
+            "the regex entity using Strict mode"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+    {
+        "question": "You are building an Azure AI Translator custom model. You need to ensure that the translation accuracy for the model has a Bilingual Evaluation Understudy (BLEU) score that indicates high quality. What is the minimum score range required?",
+        "options": [
+            "0 to 19",
+            "20 to 39",
+            "40 to 59",
+            "60 to 79",
+            "80 to 100"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+    {
+        "question": "You are building a model that uses Conversational Language Understanding (CLU). You need to measure how accurate the model is. Which metric should you use?",
+        "options": [
+            "Bilingual Evaluation Understudy (BLEU)",
+            "F1 score",
+            "precision",
+            "recall"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+    {
+        "question": "You have a question answering project. A customer asks a question that is not part of the project. You review the active learning suggestions and do not see any suggestions. You need to ensure that customer questions are included in the active learning suggestions. The solution must minimize administrative effort. What should you do?",
+        "options": [
+            "Add the customer questions to the editor manually.",
+            "Configure active learning.",
+            "Enable logging for the project.",
+            "Wait at least 30 minutes before checking for suggestions."
+        ],
+        "category": "Implement knowledge mining and document intelligence solutions (10–15%)"
+    },
+    {
+        "question": "You plan to build a chatbot that will help users answer FAQs. You need to identify which scenarios are suitable for use with the Azure AI Language question answering service. Which three scenarios should you identify? Each correct answer presents a complete solution.",
+        "options": [
+            "when you have a bot conversation that includes dynamic information",
+            "when you have a bot conversation that includes static information",
+            "when you have dynamic information in a knowledge base of answers",
+            "when you have static information in a knowledge base of answers",
+            "when you need to provide the same answer to a request, question, or command",
+            "when you need to provide unique answers to each request, question, or command"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+    {
+        "question": "You are building a solution that uses Azure Cognitive Search. You need to define the field attributes for a field where the search results will include a hit count by category. Which attribute should you assign to the field?",
+        "options": [
+            "facetable",
+            "filterable",
+            "key"
+        ],
+        "category": "Implement knowledge mining and document intelligence solutions (10–15%)"
+    },
+    {
+        "question": "You plan to build an app that will use Azure AI Services. You need to identify the methods that can be used to authenticate to Azure AI Services. Which two methods can you use? Each correct answer presents a complete solution.",
+        "options": [
+            "a SAML token",
+            "a subscription key",
+            "Azure AD",
+            "Kerberos"
+        ],
+        "category": "Plan and manage an Azure AI solution (15–20%)"
+    },
+    {
+        "question": "You are building a multi-tenant bot in JavaScript based on Azure AI Bot Service. You need to configure the identity information in the bot configuration file. The solution must minimize bot authentication errors. Which three properties should you configure? Each correct answer presents part of the solution.",
+        "options": [
+            "MicrosoftAppId",
+            "MicrosoftAppPassword",
+            "MicrosoftAppTenantId",
+            "MicrosoftAppType",
+            "MicrosoftUserCredentials"
+        ],
+        "category": "Implement generative AI solutions (10–15%)"
+    },
+    {
+        "question": "You are building a chatbot by using Azure AI Bot Service. You need to query log entries for unsuccessful requests. Which Kusto query should you run?",
+        "options": [
+            "ABSBotRequests | where ResultCode < 200 or ResultCode >= 300 | sort by TimeGenerated desc",
+            "ABSBotRequests | where ResultCode > 200 or ResultCode <= 300 | sort by TimeGenerated desc",
+            "ABSBotRequests | where ResultCode == 200 or ResultCode == 201 | sort by TimeGenerated desc",
+            "ABSBotRequests | where ResultCode >= 200 | sort by TimeGenerated desc"
+        ],
+        "category": "Plan and manage an Azure AI solution (15–20%)"
+    },
+    {
+        "question": "You are building a Language Understanding model by using Azure AI Language service. You need to implement continuous integration/continuous deployment (CI/CD) by using an automation workflow. Which two tools should you include in the solution? Each correct answer presents part of the solution.",
+        "options": [
+            "Azure CLI",
+            "CLI for Microsoft 365",
+            "GitHub CLI",
+            "NLU.DevOps",
+            "TeamsFx CLI"
+        ],
+        "category": "Implement natural language processing solutions (30–35%)"
+    },
+
+        {
+            "question": "You are developing a decision support system that needs to analyze large datasets to provide real-time insights. Which Azure AI service would be most appropriate?",
+            "options": [
+                "Azure Machine Learning",
+                "Azure Databricks",
+                "Azure Analysis Services",
+                "Azure Cognitive Services"
+            ],
+            "category": "Implement decision support solutions (10–15%)"
+        },
+        {
+            "question": "In order to provide recommendations for product upselling, you need to implement a system that analyzes historical purchase data. Which of the following algorithms would be suitable?",
+            "options": [
+                "Association Rule Learning",
+                "Neural Networks",
+                "Decision Trees",
+                "Clustering Algorithms"
+            ],
+            "category": "Implement decision support solutions (10–15%)"
+        },
+        {
+            "question": "You need to build a system that helps in forecasting quarterly sales numbers based on historical data. Which Azure AI service would you leverage for this task?",
+            "options": [
+                "Azure Machine Learning",
+                "Azure Anomaly Detector",
+                "Azure Cognitive Search",
+                "Azure Bot Service"
+            ],
+            "category": "Implement decision support solutions (10–15%)"
+        }
+    ]
