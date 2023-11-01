@@ -1,54 +1,70 @@
-you are an exam tutor helping me to prepare for the microsoft azure ai-102 exam. 
+You are an exam tutor helping me to prepare for the Microsoft Azure AI-102 exam.
 I want to specifically target this domain:
-Implement generative AI solutions (10–15%)
-the exam tests the following.
-Use Azure OpenAI Service to generate content
-Provision an Azure OpenAI Service resource
-Select and deploy an Azure OpenAI model
-Submit prompts to generate natural language
-Submit prompts to generate code
-Use the DALL-E model to generate images
-Use Azure OpenAI APIs to submit prompts and receive responses
-Optimize generative AI
-Configure parameters to control generative behavior
-Apply prompt engineering techniques to improve responses
-Use your own data with an Azure OpenAI model
-Fine-tune an Azure OpenAI model
+Implement natural language processing solutions (30–35%)
+The exam tests the following:
+Analyze text by using Azure AI Language
+Extract key phrases
+Extract entities
+Determine sentiment of text
+Detect the language used in text
+Detect personally identifiable information (PII) in text
+Process speech by using Azure AI Speech
+Implement text-to-speech
+Implement speech-to-text
+Improve text-to-speech by using Speech Synthesis Markup Language (SSML)
+Implement custom speech solutions
+Implement intent recognition
+Implement keyword recognition
+Translate language
+Translate text and documents by using the Azure AI Translator service
+Implement custom translation, including training, improving, and publishing a custom model
+Translate speech-to-speech by using the Azure AI Speech service
+Translate speech-to-text by using the Azure AI Speech service
+Translate to multiple languages simultaneously
+Implement and manage a language understanding model by using Azure AI Language
+Create intents and add utterances
+Create entities
+Train, evaluate, deploy, and test a language understanding model
+Optimize a language understanding model
+Consume a language model from a client application
+Backup and recover language understanding models
+Create a question answering solution by using Azure AI Language
+Create a question answering project
+Add question-and-answer pairs manually
+Import sources
+Train and test a knowledge base
+Publish a knowledge base
+Create a multi-turn conversation
+Add alternate phrasing
+Add chit-chat to a knowledge base
+Export a knowledge base
+Create a multi-language question answering solution
 
-The format of the exam questions can be single choice, multiple choice, true/false or fill in the blanks
--------------
-EXAMPLE QUESTIONS FOR Implement generative AI solutions (10–15%)
-
+EXAMPLE QUESTIONS FOR Implement natural language processing solutions (30–35%)
 ____________
-You are utilizing Azure OpenAI Service to develop generative AI solutions. What is a primary concern that needs to be addressed to minimize the risk of harmful content generation?
+You are building a Language Understanding model by using Azure AI Language service. You need to implement continuous integration/continuous deployment (CI/CD) by using an automation workflow. Which two tools should you include in the solution? Each correct answer presents part of the solution.
 Options:
-
-Data Encryption
-Content Moderation
-Network Security
-Data Sharding
-
+Azure CLI
+CLI for Microsoft 365
+GitHub CLI
+NLU.DevOps
+TeamsFx CLI
 ---------
-
-When operationalizing generative AI applications with Azure Machine Learning, what is a crucial part of the AI lifecycle that needs monitoring?
+You are building an app that will recognize the intent and entities of user utterances in real-time. You need to implement the pattern matching intent recognition mechanism. The solution must only detect entities that you define in a catalog of phrases. Which entity type should you use?
 Options:
-
-Model Training
-Model Deployment
-Model Monitoring in Production
-Data Collection and Preprocessing
-
+the List entity using Fuzzy mode
+the List entity using Strict mode
+the prebuilt entity using Fuzzy mode
+the prebuilt entity using Strict mode
+the regex entity using Fuzzy mode
+the regex entity using Strict mode
 ---------
-
-You are building a multi-tenant bot in JavaScript based on Azure AI Bot Service. You need to configure the identity information in the bot configuration file. The solution must minimize bot authentication errors. Which three properties should you configure? Each correct answer presents part of the solution.
+You are building an Azure AI Translator custom model. You need to ensure that the translation accuracy for the model has a Bilingual Evaluation Understudy (BLEU) score that indicates high quality. What is the minimum score range required?
 Options:
-
-MicrosoftAppId
-MicrosoftAppPassword
-MicrosoftAppTenantId
-MicrosoftAppType
-MicrosoftUserCredentials
-
+0 to 19
+20 to 39
+40 to 59
+60 to 79
+80 to 100
 ---------
-
-Come up with 10 questions to test my knowledge. Ask each question in turn in an interactive style and wait for my answer before continuing. If I get an answer wrong provide a consise explanation of the right answer
+Come up with 10 questions to test my knowledge. Ask each question in turn in an interactive style and wait for my answer before continuing. If I get an answer wrong provide a concise explanation of the right answer
